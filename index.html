@@ -1,24 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>PS99 Titanic Values</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS99 Titanic Pets – Live Values</title>
+  <!-- Link to CSS part (Part 2) -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>PS99 Titanic Values</h1>
+<h1>PS99 Titanic Pets — Live Values</h1>
 
-    <select id="petSelect" onchange="showValue()">
-        <option value="">Select a Titanic pet...</option>
-    </select>
+<!-- Table for displaying the Titanic pet names and their values -->
+<table id="petsTable">
+  <thead>
+    <tr>
+      <th>Pet Name</th>
+      <th>Value (Gems)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Dynamic rows will be inserted by JavaScript -->
+  </tbody>
+</table>
 
-    <div id="valueOutput" class="valueBox">
-        Value: ---
-    </div>
-</div>
+<!-- Link to JavaScript part (Part 3) -->
+<script src="scripts.js"></script>
 
-<script src="script.js"></script>
 </body>
 </html>
